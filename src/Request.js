@@ -52,9 +52,10 @@ export class Request extends Component {
 		return (
 			<table>
 				<tr>
-					<th>Username</th>
-					<th onClick={this.handleAll} id='selected'>Recent<span></span></th>
-					<th onClick={this.handleAll}>All-Time<span></span></th>
+					<th className="th2">#</th>
+					<th className="leftCol">Username</th>
+					<th onClick={this.handleAll} id='selected'><a href="#">Recent<span></span></a></th>
+					<th onClick={this.handleAll}><a href="#">All-Time<span></span></a></th>
 				</tr>
 				<Standings data={this.state.data} />
 			</table>

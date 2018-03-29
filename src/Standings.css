@@ -14,10 +14,42 @@ table {
 .colorful:nth-child(even):hover {
 	background-color: darkgrey;
 }
+.colorful:nth-child(odd) a {
+	color:white;
+	font-weight: bold;
+}
+.colorful:nth-child(odd) a:hover {
+	color:lightblue;
+	text-decoration: underline;
+}
+.colorful:nth-child(even) a {
+	color:black;
+	font-weight: bold;
+}
+.colorful:nth-child(even) a:hover {
+	color:darkblue;
+	text-decoration: underline;
+}
 th, td {
 	padding: 5px;
 	text-align: center;
-	border-bottom:1px solid black;
-	width: 33%;
+	border-bottom:1px solid white;
+	width: 30%;
+	vertical-align: middle;
+}
+.leftCol {
+	text-align:left;
+	vertical-align: top;
+}
+.th2 {
+	width:10%;
+}
+a {
+	text-decoration: none;
+}
+img {
+	height:40px;
+	margin:0 7px;
+	vertical-align: middle;
 }
 
